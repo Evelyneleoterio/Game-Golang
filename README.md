@@ -7,7 +7,7 @@ Este é um jogo 2D desenvolvido em Go utilizando a biblioteca Ebitengine, uma fe
 
 #### Por que em Go?
 
-Criei no intuito de práticar o que já veio aprendendo na linguagem Go.
+Criei no intuito de práticar o que já venho aprendendo na linguagem Go.
 
 ### tecnologias
 
