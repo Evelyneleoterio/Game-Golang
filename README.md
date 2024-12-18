@@ -31,4 +31,4 @@ Criei no intuito de práticar o que já venho aprendendo na linguagem Go.
 
 - Clone o repósitório no seu ambiente local com: `https://github.com/Evelyneleoterio/Game-Golang.git`
 
-- Para ficar mais facíl abra no seu Vscode e dê um `go run .`
+- Para ficar mais facíl abra no seu Vscode e dê um `go run .` e se divirta :sunglasses:
