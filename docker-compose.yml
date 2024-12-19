@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  mygame:
+    image: mygame:1.23.4
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    stdin_open: true
+    tty: true
