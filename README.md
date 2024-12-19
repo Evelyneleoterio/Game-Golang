@@ -19,13 +19,10 @@ Criei com o intuito de praticar o que já venho aprendendo na linguagem Go.
 
 ### Ferramentas de desenvolvimento
 
-**Git**  
  <img width="48" src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="git-logo"/>
 
-**Visual Studio Code**  
  <img width="48" src="https://img.icons8.com/?size=100&id=0OQR1FYCuA9f&format=png&color=000000" alt="vscode-logo"/>
 
-**Docker**  
  <img width="55" src="https://img.icons8.com/?size=100&id=22813&format=png&color=000000" alt="docker-logo"/>
 
 ## Como executar em cada sistema operacional
@@ -46,20 +43,20 @@ Criei com o intuito de praticar o que já venho aprendendo na linguagem Go.
 
 - Abra o Prompt de Comando ou PowerShell no Windows.
 - Dentro do terminal, digite os seguintes comandos:
-  1 `set GOOS=windows`
-  2 `set GOARCH=amd64`
-  3 `go build -o mygame.exe`
-  Isso cria um executável para Windows chamado `mygame.exe`.
+  - `set GOOS=windows`
+  - `set GOARCH=amd64`
+  - `go build -o mygame.exe`
+    Isso cria um executável para Windows chamado `mygame.exe`.
 
-<img width="48" src="https://img.icons8.com/?size=100&id=890&format=png&color=000000" alt="macos-logo"/>
+<img width="48" src="https://img.icons8.com/?size=100&id=uoRwwh0lz3Jp&format=png&color=000000" alt="macos-logo"/>
 
 - Clone o repositório no seu ambiente local com: `git clone https://github.com/Evelyneleoterio/Game-Golang.git`
 
 **_OBS: é importante ter o Go na versão 1.23.4 no macOS_**
 
 - No macOS, abra o terminal, entre no diretório e execute os seguintes comandos:
-  1 `set GOOS=darwin`
-  2 `set GOARCH=amd64`
-  3 `go build -o mygame-macos`
+  - `set GOOS=darwin`
+  - `set GOARCH=amd64`
+  - `go build -o mygame-macos`
 
 ![alt text](image-1.png)
