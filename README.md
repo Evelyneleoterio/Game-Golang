@@ -59,9 +59,5 @@ Criei com o intuito de praticar o que já venho aprendendo na linguagem Go.
   - `set GOARCH=amd64`
   - `go build -o mygame-macos`
 
-<video controls>
-  <source src="assets/video.webm" type="video/webm">
-  Seu navegador não suporta o formato de vídeo.
-</video>
-
+![game GIF](assets/video.webm)
 
