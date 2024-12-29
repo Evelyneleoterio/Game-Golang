@@ -7,57 +7,57 @@ Este é um jogo 2D desenvolvido em Go utilizando a biblioteca Ebitengine, uma fe
 
 #### Por que em Go?
 
-Criei com o intuito de praticar o que já venho aprendendo na linguagem Go.
+Criei com o intuito de praticar o que já venho aprendendo com linguagem Go.
 
 ### Tecnologias
 
-<p display="inline-block">
+<p style="display: flex; gap: 10px;">
   <img width="48" src="https://miro.medium.com/v2/resize:fit:600/1*i2skbfmDsHayHhqPfwt6pA.png" alt="go-logo"/>
-
   <img width="90" src="https://ebitengine.org/images/share.png" alt="ebitengine-logo"/>
 </p>
 
+
 ### Ferramentas de desenvolvimento
-<p>
- <img width="48" src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="git-logo"/>
-
- <img width="48" src="https://img.icons8.com/?size=100&id=0OQR1FYCuA9f&format=png&color=000000" alt="vscode-logo"/>
-
- <img width="55" src="https://img.icons8.com/?size=100&id=22813&format=png&color=000000" alt="docker-logo"/>
+<p style="display: flex; gap: 10px;">
+  <img width="48" src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="git-logo"/>
+  <img width="48" src="https://img.icons8.com/?size=100&id=0OQR1FYCuA9f&format=png&color=000000" alt="vscode-logo"/>
+  <img width="55" src="https://img.icons8.com/?size=100&id=22813&format=png&color=000000" alt="docker-logo"/>
 </p>
+
+
+### Pré-requisitos:
+
+* Docker: Instalado e funcionando corretamente em seu sistema (Windows, macOS ou Linux).
+* Go: Versão 1.23.4 instalada.
+* Git: Para clonar o repositório.
+
 ## Como executar em cada sistema operacional
 
-<img width="48" src="https://img.icons8.com/?size=100&id=17842&format=png&color=000000" alt="linux-logo"/>
+**1 Clone o Repositório:**
+ - `git clone https://github.com/Evelyneleoterio/Game-Golang.git`
 
-- Clone o repositório no seu ambiente local com: `git clone https://github.com/Evelyneleoterio/Game-Golang.git`
+**2 Construa a Imagem Docker:**
+- Abra o terminal no diretório do seu projeto.
+- Execute o comando: `docker build -t mygame`
 
-**_OBS: é necessário ter o Docker instalado no seu Linux_**
+**3 Execute o Container:**
+#### Para Linux:
 
-- Abra o projeto no Visual Studio Code ou, no terminal, abra o diretório onde está o projeto e digite o comando `docker compose up`.
-- Em seguida digite `go run main.go`
+<img width="48" src="https://img.icons8.com/?size=100&id=17842&format=png&color=000000" alt="linux-logo"/> 
+
+-  `docker run -it --rm mygame `
+
+#### Para Windows:
 <img width="48" src="https://img.icons8.com/?size=100&id=gXoJoyTtYXFg&format=png&color=000000" alt="windows-logo"/>
 
-- Clone o repositório no seu ambiente local com: `git clone https://github.com/Evelyneleoterio/Game-Golang.git`
+- `docker run -it --rm --platform=linux/amd64 mygame`
 
-**_OBS: é importante ter o Go na versão 1.23.4 no Windows_**
-
-- Abra o Prompt de Comando ou PowerShell no Windows.
-- Dentro do terminal, digite os seguintes comandos:
-  - `set GOOS=windows`
-  - `set GOARCH=amd64`
-  - `go build -o mygame.exe`
-    Isso cria um executável para Windows chamado `mygame.exe`.
-
+#### Para MacOs:
 <img width="48" src="https://img.icons8.com/?size=100&id=uoRwwh0lz3Jp&format=png&color=000000" alt="macos-logo"/>
 
-- Clone o repositório no seu ambiente local com: `git clone https://github.com/Evelyneleoterio/Game-Golang.git`
+- `docker run -it --rm --platform=linux/amd64 mygame .`
 
-**_OBS: é importante ter o Go na versão 1.23.4 no macOS_**
-
-- No macOS, abra o terminal, entre no diretório e execute os seguintes comandos:
-  - `set GOOS=darwin`
-  - `set GOARCH=amd64`
-  - `go build -o mygame-macos`
+## Uma Breve visualização do jogo
 
 ![game GIF](assets/video.webm)
 
