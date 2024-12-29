@@ -18,13 +18,13 @@ Criei com o intuito de praticar o que já venho aprendendo na linguagem Go.
 </p>
 
 ### Ferramentas de desenvolvimento
-
+<p>
  <img width="48" src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="git-logo"/>
 
  <img width="48" src="https://img.icons8.com/?size=100&id=0OQR1FYCuA9f&format=png&color=000000" alt="vscode-logo"/>
 
  <img width="55" src="https://img.icons8.com/?size=100&id=22813&format=png&color=000000" alt="docker-logo"/>
-
+</p>
 ## Como executar em cada sistema operacional
 
 <img width="48" src="https://img.icons8.com/?size=100&id=17842&format=png&color=000000" alt="linux-logo"/>
