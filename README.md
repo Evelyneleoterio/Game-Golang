@@ -34,7 +34,7 @@ Criei com o intuito de praticar o que já venho aprendendo na linguagem Go.
 **_OBS: é necessário ter o Docker instalado no seu Linux_**
 
 - Abra o projeto no Visual Studio Code ou, no terminal, abra o diretório onde está o projeto e digite o comando `docker compose up`.
-
+- Em seguida digite `go run main.go`
 <img width="48" src="https://img.icons8.com/?size=100&id=gXoJoyTtYXFg&format=png&color=000000" alt="windows-logo"/>
 
 - Clone o repositório no seu ambiente local com: `git clone https://github.com/Evelyneleoterio/Game-Golang.git`
@@ -59,4 +59,8 @@ Criei com o intuito de praticar o que já venho aprendendo na linguagem Go.
   - `set GOARCH=amd64`
   - `go build -o mygame-macos`
 
-![alt text](image-1.png)
+<video controls>
+  <source src="assets/video.webm" type="video/webm">
+  Seu navegador não suporta o formato de vídeo.
+</video>
+
