@@ -57,7 +57,7 @@ Criei com o intuito de praticar o que já venho aprendendo com linguagem Go.
 
 - `docker run -it --rm --platform=linux/amd64 mygame .`
 
-## Uma Breve visualização do jogo
+## visualização do jogo
 
 ![game GIF](assets/video.webm)
 
